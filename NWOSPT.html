@@ -8,7 +8,53 @@
 </a>
 <a href="index.html"> </A><BR>
 <!--Website and software created by nwiede. If you happen to come accross any problems in my code be sure to email me!-->
+<CENTER>Code Start</CENTER>
+@OS
+PRINT "-------------"
+PRINT "   NwiedeOS  "
+PRINT "-------------"
+INPUT "Type C for calculator";op$
+IF OP$=="C" THEN GOTO @CALC
+@CALC
+CLS
+COLOR 13
+INPUT "Enter the first number";NO1
+BEEP 3
+INPUT "Enter the second number";NO2
+BEEP 3
+@FCCALC
+COLOR 10
+INPUT "What Function";OP$
+IF OP$=="-" THEN GOTO @SUBT
+IF OP$=="/" THEN GOTO @DIVIDE
+IF OP$=="+" THEN GOTO @ADD 
+IF OP$=="x" THEN GOTO @MULTI
+IF OP$=="*" THEN GOTO @MULTI
+@SUBT
+COLOR 11
+SUM=NO1-NO2
+PRINT "The difference is ";SUM;"
+GOTO @END
+@DIVIDE
+COLOR 11
+SUM=NO1/NO2
+PRINT "The quotient is ";SUM;"
+GOTO @END
+@ADD
+COLOR 11
+SUM=NO1+NO1
+PRINT "The sum is ";SUM;"
+GOTO @END
+@MULTI
+COLOR 11
+SUM=NO1*NO2
+PRINT "The product is ";SUM;"
+GOTO @END
 
+@END
+CLS
+GOTO @OS
+<CENTER>Code End</CENTER>
 </body>
 </html>
  </HTML>
