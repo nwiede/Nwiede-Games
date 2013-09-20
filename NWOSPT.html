@@ -15,10 +15,19 @@ CLS
 PRINT "----------------"
 PRINT "Nwiede Interface"
 PRINT "----------------"
-INPUT "Type C for calculator, Type G for game1,Credits for credits, and G2 to launch game 2";OS$
+INPUT "Type Help for Commands";OS$
 IF OS$=="C" THEN GOTO @CALC
-IF OS$=="Credits" THEN GOTO @CREDITS
+IF OS$=="CREDITS" THEN GOTO @CREDITS
 IF OS$=="G2" THEN GOTO @GAME2
+IF OS$=="HELP" THEN GOTO @HELP
+IF OS$=="MENU" THEN GOTO @OS
+@HELP
+INPUT "";OS$
+PRINT "C opens calculator"
+PRINT "CREDITS plays the credits"
+PRINT "G2 Runs game 2"
+PRINT "MENU opens menu"
+PRINT "And HELP opens this page"
 @CREDITS
 COLOR 13
 PRINT "Interface and Calculator design by Nwiede"
