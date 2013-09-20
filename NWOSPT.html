@@ -44,23 +44,27 @@ IF OP$=="*" THEN GOTO @MULTI
 COLOR 11
 SUM=NO1-NO2
 PRINT "The difference is ";SUM;"
-GOTO @END
+INPUT "Type MENU to close calculator";OP$
+IF OP$=="MENU" THEN GOTO @END
 @DIVIDE
 COLOR 11
 SUM=NO1/NO2
 PRINT "The quotient is ";SUM;"
-GOTO @END
+INPUT "Type MENU to close calculator";OP$
+IF OP$=="MENU" THEN GOTO @END
 @ADD
 COLOR 11
 SUM=NO1+NO1
 PRINT "The sum is ";SUM;"
-GOTO @END
+INPUT "Type MENU to close calculator";OP$
+IF OP$=="MENU" THEN GOTO @END
 @MULTI
 COLOR 11
 SUM=NO1*NO2
 PRINT "The product is ";SUM;"
-GOTO @END
-@G2
+INPUT "Type MENU to close calculator";OP$
+IF OP$=="MENU" THEN GOTO @END
+
 
 
 
