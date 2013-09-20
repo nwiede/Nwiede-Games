@@ -13,8 +13,9 @@
 PRINT "----------------"
 PRINT "Nwiede Interface"
 PRINT "----------------"
-INPUT "Type C for calculator";op$
+INPUT "Type C for calculator, Type G for game1";op$
 IF OP$=="C" THEN GOTO @CALC
+IF OP$=="G" THEN GOTO @G1
 @CALC
 CLS
 COLOR 13
@@ -51,6 +52,7 @@ SUM=NO1*NO2
 PRINT "The product is ";SUM;"
 GOTO @END
 <!--Start Of Game 1 code -->
+@G1
 '+--------------------+
 '|SAMPLE7             |
 '| Attempted invesion |
