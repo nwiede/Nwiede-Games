@@ -16,9 +16,11 @@ PRINT "Nwiede Interface"
 PRINT "----------------"
 INPUT "Type C for calculator, Type G for game1";OP$
 INPUT "Type Credits for the credits for the Interface";OP$
+INPUT "Type G2 launch game 2";OP$
 IF OP$=="C" THEN GOTO @CALC
 IF OP$=="G" THEN GOTO @G1
 IF OP$=="Credits" THEN GOTO @CREDITS
+IF OP$=="G2" THEN GOTO @GAME2
 @CREDITS
 COLOR 13
 PRINT "Interface and Calculator design by Nwiede"
@@ -194,6 +196,7 @@ RETURN
 
 <!--end of game 1 code -->
 <!--Start of game 2 code -->
+@GAME2
 '+------------------+
 '|SAGAME4           |
 '| DANMAKU          |
