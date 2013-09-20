@@ -15,18 +15,17 @@ CLS
 PRINT "----------------"
 PRINT "Nwiede Interface"
 PRINT "----------------"
-INPUT "Type C for calculator, Type G for game1,Credits for credits, and G2 to launch game 2";Os
-INPUT "Type Credits for the credits for the Interface";OP$
-INPUT "Type G2 launch game 2";OP$
-IF OP$=="C" THEN GOTO @CALC
-IF OP$=="G" THEN GOTO @G1
-IF OP$=="Credits" THEN GOTO @CREDITS
-IF OP$=="G2" THEN GOTO @GAME2
+INPUT "Type C for calculator, Type G for game1,Credits for credits, and G2 to launch game 2";OS$
+INPUT "Type Credits for the credits for the Interface";OS$
+INPUT "Type G2 launch game 2";OS$
+IF OS$=="C" THEN GOTO @CALC
+IF OS$=="Credits" THEN GOTO @CREDITS
+IF OS$=="G2" THEN GOTO @GAME2
 @CREDITS
 COLOR 13
 PRINT "Interface and Calculator design by Nwiede"
 PRINT "Sample game credit goes to GameBridge, the petit computer devs"
-INPUT "Type MENU to go back to the menu";OP$
+INPUT "Type MENU to go back to the menu";OS$
 IF OP$=="MENU" THEN GOTO @END
 @CALC
 CLS
