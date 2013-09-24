@@ -12,74 +12,101 @@
 <!-- OS code start-->
 @OS
 CLS
-PRINT "----------------"
-PRINT "Nwiede Interface"
-PRINT "----------------"
-INPUT "Type Help for Commands";OS$
-IF OS$=="C" THEN GOTO @CALC
-IF OS$=="CREDITS" THEN GOTO @CREDITS
-IF OS$=="G2" THEN GOTO @GAME2
-IF OS$=="HELP" THEN GOTO @HELP
-IF OS$=="MENU" THEN GOTO @OS
-@HELP
-INPUT "";OS$
-PRINT "C opens calculator"
-PRINT "CREDITS plays the credits"
-PRINT "G2 Runs game 2"
-PRINT "MENU opens menu"
-PRINT "And HELP opens this page"
-@CREDITS
-COLOR 13
-PRINT "Interface and Calculator design by Nwiede"
-PRINT "Sample game credit goes to GameBridge, the petit computer devs"
-INPUT "Type MENU to go back to the menu";OS$
-IF OS$=="MENU" THEN GOTO @END
+COLOR 11
+PRINT "───────────────────── "
+PRINT "│     NWIEDEOSPT    │  "
+PRINT "───────────────────── "
+INPUT "TO RUN CALCULATOR: C TO RUN LAUNCHER: L ";OP$
+IF OP$=="C" THEN GOTO @CALC
+IF OP$=="L" THEN GOTO @LAUNCHER
 @CALC
 CLS
 COLOR 13
-INPUT "Enter the first number";NO1
+INPUT "NUMBER ONE";NO1
 BEEP 3
-INPUT "Enter the second number";NO2
+INPUT "NUMBER TWO";NO2
 BEEP 3
-@FCCALC
+@OPE
 COLOR 10
-INPUT "What Function";OP$
-IF OP$=="-" THEN GOTO @SUBT
-IF OP$=="/" THEN GOTO @DIVIDE
+INPUT "WHAT ACTION+,-,/,X ";OP$
 IF OP$=="+" THEN GOTO @ADD
-IF OP$=="x" THEN GOTO @MULTI
-IF OP$=="*" THEN GOTO @MULTI
-@SUBT
+IF OP$=="-" THEN GOTO @SUB
+IF OP$=="/" THEN GOTO @DIV
+IF OP$=="X" THEN GOTO @MULT
+IF OP$=="*" THEN GOTO @MULT
+@INCORR
+PRINT OP$ + "NOT VALID"
+GOTO @OPE
+@ADD
+CLS
+COLOR 11
+SUM=NO1+NO2
+PRINT "THE SUM IS ";SUM;"
+INPUT "TYPE M TO GO TO MENU";ADD$
+IF ADD$=="M" THEN GOTO @END
+GOTO @END
+@DIV
+SUM=NO1/NO2
+PRINT "THE QUOTIENT IS ";SUM;"
+INPUT "TYPE M TO GO TO MENU";DIV$
+IF DIV$=="M" THEN GOTO @END
+@SUB
 COLOR 11
 SUM=NO1-NO2
-PRINT "The difference is ";SUM;"
-INPUT "Type MENU to close calculator";OP$
-IF OP$=="MENU" THEN GOTO @END
-@DIVIDE
-COLOR 11
-SUM=NO1/NO2
-PRINT "The quotient is ";SUM;"
-INPUT "Type MENU to close calculator";OP$
-IF OP$=="MENU" THEN GOTO @END
-@ADD
-COLOR 11
-SUM=NO1+NO1
-PRINT "The sum is ";SUM;"
-INPUT "Type MENU to close calculator";OP$
-IF OP$=="MENU" THEN GOTO @END
-@MULTI
-COLOR 11
+PRINT "THE DIFFERENCE IS ";SUM;"
+INPUT "TYPE M TO GO TO MENU";CA$
+IF CA$=="M" THEN GOTO @END
+GOTO @END
+@MULT
+COLOR 5
 SUM=NO1*NO2
-PRINT "The product is ";SUM;"
-INPUT "Type MENU to close calculator";OP$
-IF OP$=="MENU" THEN GOTO @END
+PRINT "THE PRODUCT IS ";SUM;"
+INPUT "TYPE M TO GO TO MENU";MULT$
+IF MULT$=="M" THEN GOTO @END
+@LAUNCHER
+CLS
+COLOR 3
+INPUT "THE LIST OF PROGRAMS ARE GAME1";LU$
+IF LU$=="O" THEN GOTO @CLOSE
+@CLOSE 
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 @END
-CLS
+COLOR 0
+BEEP 6
 GOTO @OS
+
+<!-- OS code end-->
+
 <CENTER>Code End</CENTER>
 </body>
 </html>
