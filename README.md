@@ -4,4 +4,4 @@ My website filled with software that I have and am creating, this is Primarily a
 This website is currently up at: http://gamesbynwiede.x10.mx/
 
 Notes for Nwiede:
-Updating index: not ready for push to webserver!
+Updated index: push to webserver!
