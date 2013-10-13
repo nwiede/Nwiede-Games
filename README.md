@@ -7,4 +7,4 @@ Goals:
 Have 2 versions: the from scratch version, along with a weebly version of the site!
 
 Notes for Nwiede:
-Updated index: push to webserver!
+Updated index, Games, and Template: push to webserver!
