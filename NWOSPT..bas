@@ -1,15 +1,4 @@
-<HTML>
-<HEAD><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon"></HEAD>
-<TITLE>Nwiede Software</TITLE>
-<body bgcolor="#3399FF">
-<a href="index.html">
-   <CENTER> <button>HomePage</button> </CENTER>
-</a>
-<a href="index.html"> </A><BR>
-<!--Website and software created by nwiede. If you happen to come accross any problems in my code be sure to email me!-->
-<CENTER>Code Start, <STRONG>Right click the webpage and view page source and copy and paste The code for UI to use!, Not formatted properly In browser</STRONG></CENTER>
-<!-- OS code start-->
+
 @OS
 CLS
 COLOR 11
@@ -105,9 +94,3 @@ COLOR 0
 BEEP 6
 GOTO @OS
 
-<!-- OS code end-->
-
-<CENTER>Code End</CENTER>
-</body>
-</html>
- </HTML>
