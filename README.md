@@ -12,4 +12,6 @@ Updated index, Games, and Template: push to webserver!
 
 Things with file extension .txt are expirimental!
 
+Expirimental updates: Software.txt
+
 Pull NWOSPT.html from server
