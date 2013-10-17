@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>Software</title>
 <style type="text/css">
 <!--
 body {
@@ -122,11 +122,10 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
   <div class="sidebar1">
     <ul class="nav">
       <ul>
-        <li><a href="Games.html"> Games</a></li>
+        <li><a href="index.html">HomePage</a></li>
       </ul>
-      <li><a href="Software.html">Software</a></li>
-      <li><a href="CurrentProjects.html">Current Projects</a></li>
-      <li><a href="Other.html">Other stuff</a></li>
+      <li><a href="NwiedeOS.html">NwiedeOS</a></li>
+      <li><a href="petitapps.html">Petit Computer Applications</a></li>
     </ul>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
@@ -150,7 +149,7 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
   </div>
   <div class="content">
     <h1>Nwiede-Software</h1>
-    <p>Welcome to Nwiede Games! This is a website that I have chosen to upload many of my games and software primarily for my own pleasure. If you have come accross this website on your own browsing have a look around and if you enjoy my stuff bookmark the site and/or email me at: Nwiede99@gmail.com. Look at the side panel at the links to get started!Note: <STRONG>Webpage will not function properly on Internet Explorer!</STRONG></p>
+    <p>This is a webpage showing some software that I and maybe some colleagues have created.</p>
     <h2>&nbsp;</h2>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
@@ -166,7 +165,7 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <p><!-- end .content --></p>
+    <p><!-- end .
     <p>&nbsp;</p>
   </div>
   <!-- end .container --></div>
