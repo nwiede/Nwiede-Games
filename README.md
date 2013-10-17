@@ -9,3 +9,5 @@ Weebly Version: http://gamesbynwiedex10mx.weebly.com/
 
 Notes for Nwiede:
 Updated index, Games, and Template: push to webserver!
+
+Pull NWOSPT.html from server
