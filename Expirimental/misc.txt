@@ -1,0 +1,55 @@
+Problem1.html   l10
+-----------------------------------------------------------------
+<HTML> 
+<HEAD> 
+<TITLE>Lesson 10</TITLE> 
+</HEAD>
+<BODY bgcolor="royalblue">
+<CENTER>
+<STRONG>Problem 1<BR><HR></STRONG>
+<span style="color: #ff0000; font-size: xx-small;">U</span>
+<font style="color: #ff0000; font-size: small;">N</font>
+<font style="color: #ff0000; font-size: medium;">B</font>
+<font style="color: #ff0000; font-size: large;">E</font>
+<font style="color: #ff0000; font-size: x-large;">L</font>
+<font style="color: #ff0000; font-size: xx-large;">I</font>
+<font style="color: #ff0000; font-size: 300%;">E</font>
+<font style="color: #ff0000; font-size: xx-large;">V</font>
+<font style="color: #ff0000; font-size: x-large;">A</font>
+<font style="color: #ff0000; font-size: large;">B</font>
+<font style="color: #ff0000; font-size: medium;">L</font>
+<font style="color: #ff0000; font-size: small;">E</font>
+<font style="color: #ff0000; font-size: xx-small;">!</font>
+</CENTER>
+<HR>
+<STRONG>
+<CENTER>
+<a href="Problem2.html">Problem 2</a>
+</CENTER>
+</STRONG>
+<HR>
+</BODY>
+</HTML>
+--------------------------------------------------------------------
+Problem2.html
+--------------------------------------------------------------------
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY bgcolor="royalblue">
+<H4 ALIGN="CENTER">Problem 2</H4><HR>
+<BIG><FONT COLOR="red">The basefont tag is no longer supported in HTML5!!!!</FONT></BIG><BR>
+<SMALL>This is some small text talking about how the text on top is large! The text above is using the BIG tag!</SMALL><BR>
+<FONT FACE="arial">Here is some text using the Arial face! This is using the FONT FACE tag!</FONT><BR>
+Below this text is some other text effected by the blockquote tag<BLOCKQUOTE>Here is some blockquoted text!</BLOCKQUOTE><BR>
+Here is some time using the superscripte attribute: 12:00<SUP>pm</SUP>
+Here is some time again this time using the subscript attrubute <SUB>12:00</SUB>pm<BR>
+<U>This is some underlined text!</U><BR>
+<pre>
+This text is---->             formatted using the Pre tag!
+</pre>
+
+
+</BODY>
+</HTML>
